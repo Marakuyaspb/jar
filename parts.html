@@ -1,0 +1,40 @@
+<!-- for the admin panel -->
+
+<form action = "products.json" method="POST">
+	<input type="text" name="model_name">
+	<input type="text" name="short_name">
+	<!-- model_photo ADD HERE UPLOAD! -->
+	<input type="text" name="price">
+	<input type="text" name="square">
+	<input type="text" name="max_power">
+	<input type="text" name="noize">
+	<input type="text" name="inv_tech">
+	<input type="text" name="en_eff_class">
+	<input type="text" name="wifi"> <!-- yes/no -->
+
+	<input type="submit" value="Добавить товар в каталог">
+</form>
+
+<!-- for the admin panel -- END -->
+
+
+<!--  -->
+<!-- request to the server -->
+
+<script type="text/javascript">
+
+let xhttp = new XMLHttpRequest();
+
+xhttp.onreadystatechange = function () {
+	if (this.readyState == 4 && this.status == 200) {
+		myFunction(this.responseText)
+	}
+}
+
+xhttp.open("GET", "http:// ADD LINK HERE", true)
+
+function myFunction(data) {
+	concole.log(data);
+}
+
+</script>

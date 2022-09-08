@@ -3,8 +3,7 @@
 
 <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
@@ -12,9 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
 
-<!-- Render product cards -->
-    <script src="push_prods.js"></script>
-<!--  -->
+
     
 
 <!-- some another styles -->
@@ -23,15 +20,9 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css">
 
 
-
-
-<!-- and some another code -->
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/owl.carousel.min.js"></script> 
-    <script src="https://use.fontawesome.com/826a7e3dce.js"></script>
-
+<!-- Render product cards -->
+    <script src="push_prods.js"></script>
+<!--  -->
 
 
 
@@ -45,107 +36,16 @@
 <body>
 
 
-<div class="sticky-top">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" >
-        <a class="navbar-brand px-3" href="#"><img src="img/logo_0.png" style="height: 2.5em" alt=""></a>
-        <button class="me-3 navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-
-            <span class="navbar-toggler-icon "></span>
-        </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mx-3 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Кондиционеры</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Установка</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link ">Обслуживание и ремонт</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link">Контакты</a>
-                    </li>
-                </ul>
-            </div>     
-    </nav>
-</div>
-
-
-
-    <div id="carouselExampleControls" class="carousel slide">
-                     
-        <img class="uiit d-block w-100 he-res" src="img/header.jpg" alt="First slide">
-
-        <div class="carousel-caption cad-flex justify-content-center mb-3 " style="top:20%;bottom: 20%">
-            
-                <h1 class="font5" style="font-size: 3em">Продажа, установка, обслуживание и ремонт кондиционеров в Санкт-Петербурге</h1>
-
-
-        </div>   
-    </div>
-
-
 
     <div class="container m-5">
         <h2>КОНДИЦИОНЕРЫ</h2>
 
         
-        <section class="">
-            <script type="text/javascript">
-                let card = 'snippets/product_card.html';
-                let div = document.createElement('div');
-                div.className = "product_card";
-                div.innerHTML = card;
-
-                document.body.append(div);
-            </script>
-
-
-<!-- <div class="col-md-6 product_card">
-    <a href="#" onclick="$t1.loadAllProducts('{{}}');">
-
-    <p id="model_name"></p>
-
-    <div class="model_photo">
-            <img class="img-responsive" width="288" src="img/products/{{model_photo}}">
-    </div>
-
-    <div>
-        <p id="model_price">{{}}</p>
-    </div>
-    
-    <h3> Характеристики </h3>
-    <div class="row">
-    <div class="col-sm-6">
-        <div class="model_parametr">
-            <p class="model_parametr">Макс. площадь:</p>
-            <p class="model_parametr">Макс. мощность:</p>
-            <p class="model_parametr">Уровень шума:</p>
-            <p class="model_parametr">Инвенторная технология:</p>
-            <p class="model_parametr">Класс энергоэффективности:</p>
-            <p class="model_parametr">Управление по wi-fi:</p>
-        </div>
-    </div>
-    <div class="col-sm-6">
-        <div class="model_facts">
-            <p id="square">{{}}</p>
-            <p id="max_power">{{}}</p>
-            <p id="noize">{{}}</p>
-            <p id="inv_tech">{{}}</p>
-            <p id="en_eff_class">{{}}</p>
-            <p id="wi_fi">{{}}</p>
-        </div>
-    </div>
-</div>
-</a>
-</div> -->
+        <section class="cards">
 
 
 
-
-
-       <!--  
+  
             <div class="col-md-6 product_card">
                 <div class="model_name" id="">The model</div>
 

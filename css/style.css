@@ -1,5 +1,63 @@
-.sale-update {
-    background-color: #88c8bc;
+h1 {
+ 
+}
+
+
+h2 {
+    color: #A54D4F;
+}
+
+
+h3 {
+color: #3D4251;
+}
+
+.red {
+    background-color: #A54D4F !important;
+}
+
+/* Карточка продукта  */
+
+.product_card {
+    border: 2px solid #CACBD5;
+    padding: 10px;
+}
+
+#model_name {
+    color: #666F88;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.model_photo{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    max-width: 280px;
+    position: relative;
+}
+
+#model_price {
+    color: #666F88;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.model_parametr {
+    color: #666F88;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.model_facts {
+    color: #666F88;
+    font-size: 16px;
+
+}
+
+/* end of the card */
+
+.slide {
+
 }
 
 .slider {
@@ -7,15 +65,6 @@
     height: 500px;
 }
 
-h1.foot {
-    color: #595959;
-    font-size: 34px;
-}
-
-h3.saleh3 {
-    color: #fff;
-    font-size: 20px;
-}
 
 @font-face {
     font-family: futuralight;
@@ -33,12 +82,6 @@ h3.saleh3 {
 
 .font4 {
     font-family: Montserratlight;
-}
-
-.gender-divh2 {
-    font-size: 40px;
-    text-align: center;
-    color: black;
 }
 
 @font-face {
@@ -90,6 +133,8 @@ h3.saleh3 {
     font-weight: bold;
 }
 
+
+/* FOOTER */
 .footer-links {
     list-style-type: none;
 }
@@ -133,130 +178,8 @@ ul.breadcrumb li a:hover {
     text-decoration: underline;
 }
 
-.women-banner {
-    background-image: url("https://preview.colorlib.com/theme/footwear/images/cover-img-1.jpg");
-    height: 300px;
-    padding: 4em;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    position: relative;
-}
-
-.para-right-margin {
-    font-size: 14px;
-}
-
-.para-right-margin p {
-    margin-top: 10px;
-    color: #faf8fa;
-}
-
-.uiit {
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    position: relative;
-    object-fit: cover;
-}
-
-.featured1 {
-    height: 400px;
-    background-image: url("https://preview.colorlib.com/theme/footwear/images/img_bg_2.jpg");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    position: relative;
-}
-
-.featured2 {
-    height: 400px;
-    background-image: url("https://preview.colorlib.com/theme/footwear/images/women.jpg");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    position: relative;
-}
-
-.featured3 {
-    height: 400px;
-    background-image: url("https://preview.colorlib.com/theme/footwear/images/item-11.jpg");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    position: relative;
-}
-
-.uii {
-    list-style-type: none;
-}
-
-.uii a {
-    color: inherit;
-    text-decoration: inherit;
-}
-
-.uii li {
-    margin-bottom: 5px;
-}
-
-.sizes {
-    background-color: #cccccc;
-
-}
 
 
-.pagination {
-    list-style: none;
-    padding: 8px;
-    text-align: center;
-}
-
-.pagination a,
-.pagination li {
-    border-radius: 50%;
-    color: #212121;
-    display: inline-block;
-    margin: 0;
-    transition: .15s ease-in;
-    cursor: pointer;
-    text-decoration: none;
-    border: 1px solid #595959;
-}
-
-/*
-.pagination a:hover {
-  background: rgba(63, 81, 181, 0.12);
-}
-*/
-.pagination .pagination-number,
-.pagination .pagination-arrow i {
-    vertical-align: middle;
-}
-
-.pagination .pagination-number {
-    font-family: sans-serif;
-    font-size: 14px;
-    text-align: center;
-    line-height: 24px;
-    width: 32px;
-    padding: 4px 0;
-}
-
-.pagination .pagination-number.current-number {
-    background: #616161;
-    color: #fff;
-}
-
-.pagination .pagination-arrow i {
-    font-size: 14px;
-    padding: 4px;
-
-}
-
-.pagi-icon {
-    font-size: 14px;
-}
 
 .button {
     background-color: #cccccc;
