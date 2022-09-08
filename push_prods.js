@@ -1,6 +1,55 @@
-let data = "products.json";
+/* PRODUCTS */
 
-function builtIt (data) {
+class Products {
+
+	render() {
+		let htmlCatalog = '';
+
+
+		CATALOG.forEach((model_name, model_photo, price, square, max_power, noize, inv_tech, en_eff_class, wifi) => {
+
+			let activeClass = '';
+            let activeText = '';
+
+            if (productsStore.indexOf(id) === -1) {
+                activeText = this.labelAdd;
+            } else {
+                activeClass = ' ' + this.classNameActive;
+                activeText = this.labelRemove;
+            }
+
+			htmlCatalog += `
+				<li>
+					<span>${model_name}</span>
+					<img src="${model_photo}" />
+					<span>${price}</span>
+				</li>
+			`;
+		});
+
+		consthtml = `
+			<ul class = "smth">
+				${htmlCatalog}
+			</ul>
+
+		`;
+		allProducts.innerHTML = htmlProducts;
+	}  
+	
+}
+
+const productsPage = new Products();
+productsPage.render();
+
+
+
+
+
+
+
+
+
+/*function builtIt (data) {
 	document.querySelector('.cards').innerHTML = `<table class="model_name"></table>` for(key in data) {
 		let row = document.createElement('tr')
 		row.innerHML = `<td colspan="2">${key}</td>`
@@ -8,7 +57,7 @@ function builtIt (data) {
 	}
 };
 builtIt();
-
+*/
 
 
 /*function pushAll () {
