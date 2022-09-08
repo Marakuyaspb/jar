@@ -37,4 +37,64 @@ function myFunction(data) {
 	concole.log(data);
 }
 
+
+
+/* fetch */
+
+function render() {
+	const productStore = localStorageUtil.getProducts();
+}
+
+let catalog = [];
+
+
+
+fetch('products.json')
+	.then(result => result.json())
+	.then(body => {
+		catalog = body;
+		render();
+	})
+	.catch(error => {
+		console.log(error);
+	});
+
+
+
+
+/* products.js*/
+
+class Products {
+
+	render() {
+		let htmlCatalog = '';
+
+
+		catalog.forEach((model_name, photo, price, square, max_power, noize, inv_tech, en_eff_class, wifi) => {
+			
+			htmlCatalog += `
+				<li>
+					<span>${model_name}</span>
+					<img src="${img}" />
+					<span>${price}</span>
+				</li>
+
+			`;
+		});
+
+		consthtml = `
+			<ul class = "smth">
+				${htmlCatalog}
+			</ul>
+
+		`;
+
+	}  
+
+	aaaaa_root.innerHTML = html;
+}
+
+const productsPage = new Products();
+productsPage.render();
+
 </script>

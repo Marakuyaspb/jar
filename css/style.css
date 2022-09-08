@@ -4,7 +4,7 @@ h1 {
 
 
 h2 {
-    color: #A54D4F;
+    color: #D35E35;
 }
 
 
@@ -16,45 +16,6 @@ color: #3D4251;
     background-color: #A54D4F !important;
 }
 
-/* Карточка продукта  */
-
-.product_card {
-    border: 2px solid #CACBD5;
-    padding: 10px;
-}
-
-#model_name {
-    color: #666F88;
-    font-size: 16px;
-    margin-top: 10px;
-}
-
-.model_photo{
-    margin-bottom: 20px;
-    margin-top: 20px;
-    max-width: 280px;
-    position: relative;
-}
-
-#model_price {
-    color: #666F88;
-    font-size: 20px;
-    font-weight: 400;
-}
-
-.model_parametr {
-    color: #666F88;
-    font-size: 16px;
-    font-weight: 400;
-}
-
-.model_facts {
-    color: #666F88;
-    font-size: 16px;
-
-}
-
-/* end of the card */
 
 .slide {
 
