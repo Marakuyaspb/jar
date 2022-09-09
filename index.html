@@ -17,16 +17,7 @@
     <link rel="stylesheet" href="css/error.css">
 
 
-<!-- JS -->
-    <script src="parts/root.js"></script>
 
-<!-- Render product cards -->
-    <script src="push_prods.js"></script>
-<!--  --> 
-
-    <script src="parts/spinner.js"></script>
-    <script src="parts/error.js"></script>
-    <script src="parts/index.js"></script>
 
 
     
@@ -58,7 +49,13 @@
 
 <body>
 
-    <div class="sticky-top">
+
+
+
+
+
+
+    <div class="sticky-top container-fluid p-0">
         <nav class="navbar navbar-expand-lg navbar-light bg-light" >
             <a class="navbar-brand px-3" href="#"><img src="img/logo_0.png" style="height: 2.5em" alt=""></a>
             
@@ -103,6 +100,26 @@
 
 <!-- ALL MAGIC IS HERE -->        
     <div id="products"></div>  
+    <div id="spinner"></div> 
+    <div id="error"></div> 
+
+
+<!-- JS -->
+    <script src="parts/root.js"></script>
+
+<!-- Render product cards -->
+    <script src="push_prods.js"></script>
+<!--  --> 
+
+    <script src="parts/spinner/spinner.js"></script>
+    <script src="parts/error.js"></script>
+    <script src="index.js"></script>
+
+<!-- script src="some_ajax.js"></script -->
+
+
+
+
 
         
     <div class="text-center mt-5">

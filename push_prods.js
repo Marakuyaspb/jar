@@ -1,8 +1,37 @@
 /* PRODUCTS */
 
+
 class Products {
 
 	render() {
+		
+		CATALOG.forEach(({model_name, model_photo, price, square, max_power, noize, inv_tech, en_eff_class, wi_fi}) => {
+			console.log('aaaa!');
+
+			htmlCatalog += `
+				<li>
+					<span>${model_name}</span>
+					<img src="${model_photo}" />
+					<span>${price}</span>
+				</li>
+			`;
+			});
+
+			const html = `
+			<ul class = "smth">
+				${htmlCatalog}
+			</ul>
+
+		`;
+		ROOT_PRODUCTS.innerHTML = html;
+		}
+	}
+
+const productsPage = new Products();
+productsPage.render();
+
+
+	/*render() {
 		let htmlCatalog = '';
 
 
@@ -39,7 +68,7 @@ class Products {
 }
 
 const productsPage = new Products();
-productsPage.render();
+productsPage.render();*/
 
 
 
