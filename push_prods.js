@@ -4,6 +4,7 @@
 class Products {
 
 	render() {
+		let htmlCatalog = '';
 		
 		CATALOG.forEach(({model_name, model_photo, price, square, max_power, noize, inv_tech, en_eff_class, wi_fi}) => {
 			console.log('aaaa!');
@@ -28,7 +29,11 @@ class Products {
 	}
 
 const productsPage = new Products();
-productsPage.render();
+
+
+
+
+
 
 
 	/*render() {

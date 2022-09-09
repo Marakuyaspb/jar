@@ -2,65 +2,61 @@
 	{
 		"model_name": "LG Inverter Mega DUAL P09SP2.NSAR/P09SP2.UA3R",
 		"short_name": "P09SP2",
-		"model_photo": "./img/products/P09SP2.png",
-		"price": "100 000",
+		"model_photo": "img/products/P09SP2.png",
+		"price": "100000",
 		"square": "до 27 кв.м.",
 		"max_power": "2.6 кВт",
 		"noize": "22 дБ",
 		"inv_tech": "да",
 		"en_eff_class": "А",
-		"wifi": "да",
+		"wifi": "да"
 	},
-
 	{
 		"model_name": "Gree Bora GWH12AAB-K3NNA2A",
 		"short_name": "GWH12AAB",
-		"photo": "./img/products/GWH12AAB.png",
-		"price": "100 000",
+		"photo": "img/products/GWH12AAB.png",
+		"price": "100000",
 		"square": "???? кв.м.",
 		"max_power": "3.4 кВт",
 		"noize": "42 дБ",
 		"inv_tech": "да",
 		"en_eff_class": "A/A",
-		"wifi": "нет",
+		"wifi": "нет"
 	},
-
 	{
 		"model_name": "Leader DC-Inverter AS12TL4HRA/1U12TL4FRA ",
 		"short_name": "AS12TL4HRA",
-		"photo": "./img/products/AS12TL4HRA.png",
-		"price": "100 000",
+		"photo": "img/products/AS12TL4HRA.png",
+		"price": "100000",
 		"square": "50 кв.м.",
 		"max_power": "3.9 кВт",
 		"noize": "???? дБ",
 		"inv_tech": "да",
 		"en_eff_class": "A",
-		"wifi": "да",
+		"wifi": "да"
 	},
-
 	{
 		"model_name": "BALLU BSNI-10HN8",
 		"short_name": "10HN8",
-		"photo": "./img/products/10HN8.png",
-		"price": "100 000",
+		"photo": "img/products/10HN8.png",
+		"price": "100000",
 		"square": "38 кв.м.",
 		"max_power": "1.4 кВт",
 		"noize": "53 дБ",
 		"inv_tech": "да",
 		"en_eff_class": "A+++",
-		"wifi": "да",
+		"wifi": "да"
 	},
-
 	{
 		"model_name": "Electrolux EACS/I-13HFA/N8_22Y",
 		"short_name": "I-13HFA",
-		"photo": "./img/products/I-13HFA.png",
-		"price": "100 000",
+		"photo": "img/products/I-13HFA.png",
+		"price": "100000",
 		"square": "40 кв.м.",
 		"max_power": "0.994 кВт",
 		"noize": "51 дБ",
 		"inv_tech": "да",
 		"en_eff_class": "A+++",
-		"wifi": "нет",
+		"wifi": "нет"
 	}
 ]

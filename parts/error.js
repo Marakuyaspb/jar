@@ -1,10 +1,11 @@
 class Error {
     render() {
         const html = `
-        	<div class="error-container">
+        	<div class="container">
                 <div class="error-message">
-                    <h3>Нет доступа!</h3>
-                    <p>Попробуйти зайти позже</p>
+                    <h3>Технические работы</h3>
+                   
+                    <p>Извините за неудобства. Скоро всё обновим!</p>
                 </div>
         	</div>
         `;

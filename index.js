@@ -1,16 +1,12 @@
-/* iNDEX */
-
 function render() {
-	const productsStore = localStorageUtil.getProducts();
-
-	headerPage.render(productsStore.length);
-
 	productsPage.render();	
+	spinnerPage.render();
 }
 
-spinnerPage.render();
-
 let CATALOG = [];
+render();
+
+
 
 fetch('products.json')
     .then(res => res.json())
@@ -26,3 +22,5 @@ fetch('products.json')
         spinnerPage.handleClear();
     	errorPage.render();
     })
+
+
