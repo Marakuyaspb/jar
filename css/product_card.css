@@ -1,8 +1,8 @@
 h4 {
     color: #3D4251;
     font-size: 1.1em;
-    text-align: center;
 }
+
 
 .products_container {
     display: grid;
@@ -25,7 +25,6 @@ h4 {
 }
 
 .product_card {
-    /*border: 1px solid #CACBD5;*/
     box-shadow:  0 0 12px #CACBD5;
     display: flex;
     flex-direction: column;
@@ -43,7 +42,7 @@ h4 {
 }
 
 .model_price {
-    color: #666F88;
+    color: #D35E35;
     font-size: 1.2em;
     font-weight: 600;
     padding-bottom: 2em;
@@ -51,14 +50,26 @@ h4 {
 
 .characteristics {
     color: #3D4251;
-    font-size: 0.8em;
+    font-size: 0.9em;
     font-weight: bold;
     margin-top: 10px;
 }
 
 .model_parametr {
     color: #666F88;
-    font-size: 0.8em;   
+    font-size: 0.9em;   
     font-weight: bold;
     padding-right: 10px;
+}
+
+.order_button {
+    background-color: #D35E35;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: bold;
+    box-shadow:  0 0 5px #CACBD5;
+    border:  none;
+    border-radius: 3px;
+    width: 9em;
+    height: 2.6em;
 }

@@ -12,8 +12,9 @@ class Products {
 			htmlCatalog += `
 			
 			<div class = "product_card">
-
-			<h3 class="py-1">${model_name}</h3>
+			<center>
+				<h3 class="py-1">${model_name}</h3>
+			</center>
 			<center>
 				<img src="${photo}" class="model_photo img-responsive"/>
 			</center>
@@ -67,6 +68,11 @@ class Products {
 				</tr>
 
 			</table>
+
+ 			<center class="mt-5">
+        		<button type="button" class="order_button"> Заказать</button>
+    		</center>
+
 			</div>
 			`;
 			});
@@ -74,6 +80,7 @@ class Products {
 			const html = `
 			<div class = "container-fluid products_container">
 				${htmlCatalog}
+
 			</div>
 
 		`;

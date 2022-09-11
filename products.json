@@ -1,17 +1,5 @@
 [
 	{
-		"model_name": "LG Inverter Mega DUAL P09SP2.NSAR/P09SP2.UA3R",
-		"short_name": "P09SP2",
-		"photo": "img/products/P09SP2.png",
-		"price": "100000",
-		"square": "27",
-		"max_power": "2.6",
-		"noize": "22",
-		"inv_tech": "да",
-		"en_eff_class": "А",
-		"wi_fi": "да"
-	},
-	{
 		"model_name": "Gree Bora GWH12AAB-K3NNA2A",
 		"short_name": "GWH12AAB",
 		"photo": "img/products/GWH12AAB.png",
@@ -22,6 +10,30 @@
 		"inv_tech": "да",
 		"en_eff_class": "A/A",
 		"wi_fi": "нет"
+	},
+	{
+		"model_name": "Electrolux EACS/I-13HFA/N8_22Y",
+		"short_name": "I-13HFA",
+		"photo": "img/products/I-13HFA.png",
+		"price": "100000",
+		"square": "40",
+		"max_power": "0.994",
+		"noize": "51",
+		"inv_tech": "да",
+		"en_eff_class": "A+++",
+		"wi_fi": "нет"
+	},
+	{
+		"model_name": "LG Inverter Mega DUAL P09SP2.NSAR/P09SP2.UA3R",
+		"short_name": "P09SP2",
+		"photo": "img/products/P09SP2.png",
+		"price": "100000",
+		"square": "27",
+		"max_power": "2.6",
+		"noize": "22",
+		"inv_tech": "да",
+		"en_eff_class": "А",
+		"wi_fi": "да"
 	},
 	{
 		"model_name": "Leader DC-Inverter AS12TL4HRA/1U12TL4FRA ",
@@ -47,16 +59,16 @@
 		"en_eff_class": "A+++",
 		"wi_fi": "да"
 	},
-	{
-		"model_name": "Electrolux EACS/I-13HFA/N8_22Y",
-		"short_name": "I-13HFA",
-		"photo": "img/products/I-13HFA.png",
+		{
+		"model_name": "Haier AS25S2SJ1FA-G x 2 / 2U40S2SM1FA",
+		"short_name": "AS25S2SJ1FA",
+		"photo": "img/products/AS25S2SJ1FA.png",
 		"price": "100000",
-		"square": "40",
-		"max_power": "0.994",
-		"noize": "51",
-		"inv_tech": "да",
-		"en_eff_class": "A+++",
-		"wi_fi": "нет"
+		"square": "50",
+		"max_power": "4.4",
+		"noize": "62",
+		"inv_tech": "???",
+		"en_eff_class": "A++ / A+",
+		"wi_fi": "да"
 	}
 ]
