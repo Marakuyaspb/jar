@@ -1,5 +1,29 @@
 [
 	{
+		"model_name": "Casarte CAS35CX1/R3-G 1U35CX1/R3",
+		"short_name": "CAS35CX1",
+		"photo": "img/products/CAS35CX1.png",
+		"price": "100000",
+		"square": "35",
+		"max_power": "3.5",
+		"noize": "49",
+		"inv_tech": "да",
+		"en_eff_class": "A++ ",
+		"wi_fi": "да"
+	},
+	{
+		"model_name": "Haier AS25S2SJ1FA-G x 2 / 2U40S2SM1FA",
+		"short_name": "AS25S2SJ1FA",
+		"photo": "img/products/AS25S2SJ1FA.png",
+		"price": "100000",
+		"square": "50",
+		"max_power": "4.4",
+		"noize": "62",
+		"inv_tech": "???",
+		"en_eff_class": "A++ / A+",
+		"wi_fi": "да"
+	},
+	{
 		"model_name": "Gree Bora GWH12AAB-K3NNA2A",
 		"short_name": "GWH12AAB",
 		"photo": "img/products/GWH12AAB.png",
@@ -57,18 +81,6 @@
 		"noize": "53",
 		"inv_tech": "да",
 		"en_eff_class": "A+++",
-		"wi_fi": "да"
-	},
-		{
-		"model_name": "Haier AS25S2SJ1FA-G x 2 / 2U40S2SM1FA",
-		"short_name": "AS25S2SJ1FA",
-		"photo": "img/products/AS25S2SJ1FA.png",
-		"price": "100000",
-		"square": "50",
-		"max_power": "4.4",
-		"noize": "62",
-		"inv_tech": "???",
-		"en_eff_class": "A++ / A+",
 		"wi_fi": "да"
 	}
 ]
