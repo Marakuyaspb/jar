@@ -1,9 +1,4 @@
-h4 {
-    color: #3D4251;
-    font-size: 1.1em;
-}
-
-
+/* & use h3 */
 .products_container {
     display: grid;
     grid-gap: 45px;
@@ -21,7 +16,6 @@ h4 {
     border-radius: var(--border-radius);
     background-color: var(--color-white);
     box-shadow: var(--box-shadow);
-
 }
 
 .product_card {
@@ -73,3 +67,4 @@ h4 {
     width: 9em;
     height: 2.6em;
 }
+

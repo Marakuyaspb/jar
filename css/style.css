@@ -1,13 +1,15 @@
+/*body {
+  margin-top:2rem;
+}
+*/
 h1 {
  
 }
-
 
 h2 {
     color: #D35E35;
     margin-bottom: 20px;
 }
-
 
 h3 {
     color: #3D4251;
@@ -15,9 +17,33 @@ h3 {
     padding-top: 30px;
 }
 
-.red {
-    background-color: #A54D4F !important;
+h4 {
+    color: #fff;
+    margin-bottom: 20px;
 }
+
+h5 {
+    color: #D35E35;
+    font-size: 1.3em;
+    padding-top: 30px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #3D4251;
+}
+a:hover{
+    color: #666F88;
+    font-weight: bold;
+}
+
+/* Ancors floating */
+/*#ac:after {
+    display: block;
+    content: "";
+    margin: 0 -55px 0 0;
+}*/
 
 
 .table_price{
@@ -96,29 +122,7 @@ h3 {
     color: black;
 }
 
-.btn-lg {
-    background-color: #616161;
-    color: #fff;
 
-}
-
-.btn-lg:hover {
-    color: #fff;
-    background-color: black;
-
-}
-
-.text-button-lg {
-    font-size: 14px;
-    font-weight: 200;
-}
-
-.trusted-par {
-    font-size: 20px;
-    color: #0000004D;
-    text-align: center;
-    font-weight: bold;
-}
 
 
 /* FOOTER */
@@ -165,120 +169,87 @@ ul.breadcrumb li a:hover {
     text-decoration: underline;
 }
 
-
-
-
-.button {
-    background-color: #cccccc;
-    /* Green */
-    border: none;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 12px;
-    margin: 4px 2px;
-    cursor: pointer;
-    width: 35px;
-    height: 35px;
-}
-
-.button:hover {
-    background-color: #616161;
-}
-
-.button1 {
-    border-radius: 4px;
-}
-
-
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 50%;
-}
-
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa-facebook {
-    color: #616161;
-}
-
-.fa-twitter {
-    color: #616161;
-}
-
-.fa-linkedin {
-    color: #616161;
-}
-
-.fa-dribbble {
-    color: #616161;
-}
-
-@keyframes slideInFromLeft {
-    0% {
-        transform: translateX(-100%);
-    }
-
-    100% {
-        transform: translateX(0);
-    }
-}
-
-.animation {
-    animation: 1s ease-out 0s 1 slideInFromLeft;
-}
-
 input[type=text] {
-    width: 130px;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
     font-size: 16px;
     background-color: white;
-    background-image: url('../img/searchicon.png');
-    background-position: 10px 10px;
-    background-repeat: no-repeat;
-    padding: 12px 20px 12px 40px;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
-}
-
-input[type=text]:focus {
-    width: 100%;
+    padding: 12px;
 }
 
 
-.my-button {
-    color: white;
-    padding: 10px 30px;
-    border-radius: 30px;
-    background-color: #616161;
-    font-size: 14px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+/* FORM with phone number */
+
+.call_me_card {
+    background-color: #D35E35;
+    /*box-shadow:  0 0 12px #3D4251;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px;
+    text-align: left;
 }
 
-.my-button:hover {
-    background-color: black;
+.call_me_button {
+    background-color: #3D4251;
     color: #fff;
+    font-size: 1.1em;
+    font-weight: bold;
+    /*box-shadow:  0 0 5px #e86c41;*/
+    border:  none;
+    border-radius: 3px;
+    /*width: 9em;*/
+    height: 40px;
+    padding: 0 20px;
+    margin: 10px;;
+}
+.call_me_button:hover {
+    background-color: #666F88;
+}
+.call_me_button:active {
+    background-color: #666F88;
 }
 
-.pull-right-karo {
-    float: right!important;
+.call_me_input {
+    color: #3D4251;
+    font-size: 1.1em;
+    /*box-shadow:  0 0 5px #CACBD5;*/
+    border: none;
+    border-radius: 3px;
+    /*width: 9em;*/
+    height: 40px;
+    padding: 0 20px;
+}
+.call_me_input:hover {
+    box-shadow:  0 0 8px #e86c41;
+}
+.call_me_input:active {
+    box-shadow:  0 0 12px #e86c41;
+    border: #e86c41 !important;
+}
+.text-white{
+    color:  #fff;
+    font-size: 1em;
 }
 
-.he-res{
-    height: 600px;
+
+.contact_card {
+    /*background-image: url("green-phone.png");*/
+    background-repeat: no-repeat;
+    margin-bottom: 10em;
+    margin-top: 5em;
+    padding: 2em;
+    position: relative;
+    max-width: 1000px;
+    /*box-shadow:  0 0 15px #CACBD5;*/
 }
+.contact_img {
+    max-width: 400px;
+    /*margin-left: -100px;*/
+}
+
+
 @media screen and (max-width: 600px) {
     .gender-img {
         width: 350px;
