@@ -24,7 +24,7 @@
   <div class="sticky-top container-fluid p-0">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand px-3" href="#"><img src="img/logo_0.png" style="height: 2.5em" alt=""></a>
+            <a class="navbar-brand px-3" href="/index.html"><img src="img/logo_0.png" style="height: 2.5em" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -45,24 +45,66 @@
 <!-- MENU END -->
 
 
-<!-- general info -->
-    <div class="container-fluid contact_card m-1">             
-        <h2 class="mb-5">КОНТАКТЫ</h2>
-            
-            <div class="d-flex flex-row">
-                <div class="p-1"><img style="height: 30px;" src="img/icons/whatsapp.svg" alt=""></div>
-                <div class="p-1"><p><a href="tel://1234567920">+ 1235 2355 98</a>
-                </div>
+<!-- WATSUP WIDGET -->
+<script type="text/javascript">
+!function(w,h,a,t,s,p){
+    w.whatsapp || (
+    s = h.createElement(a),
+    s.src = t,
+    p = h.getElementsByTagName(a)[0],
+    p.parentNode.insertBefore(s, p)
+)}(window, document, "script", "https://cdn.jsdelivr.net/gh/miguelcolmenares/whatsapp-widget/dist/js/whatsapp-widget.js");
+window.addEventListener('load', function(){
+    new whatsapp({
+        title: 'Напишите нам', // this is the title of the widget
+        description: 'Задать вопрос в Whatsapp', // this is the text below the title
+        agents:[{
+            name: "Отдел продаж",
+            phone: "+79523596963",
+            /*hours: "Посоветуем, какой кондиционер выбрать",*/
+            cta: "Какой кондиционер выбрать?",
+            message: "Добрый день! Хочу приобрести кондиционер"
+
+        },
+        {
+            name: "Ремонт и обслуживание",
+            phone: "+79523596963",
+            /*hours: "С вашим кондиционером что-то не так?",*/
+            cta: "С вашим кондиционером что-то не так?",
+            message: "Добрый день! Мой кондиционер работает не так, как раньше: "
+        }]
+    })
+});
+</script>
+<!-- END OF WATSUP WIDGET -->
+
+
+<!-- GENERAL INFO -->
+   <div class="contact_card "> 
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2 class="mb-5">КОНТАКТЫ</h2>            
+                    <div class="d-flex flex-row">
+                        <div class="p-1"><img style="height: 30px;" src="img/icons/whatsapp.svg" alt=""></div>
+                        <div class="p-1"><p><a href="tel://1234567920">+ 1235 2355 98</a>
+                        </div>
+                    </div>
+                
+                    <div class="d-flex flex-row pb-3">
+                        <div class="p-1"><img style="height: 24px;" src="img/icons/mail.svg" alt=""></div>
+                        <div class="p-1"><p><a href="mailto:info@yoursite.com">info@yoursite.com</a></div>
+                    </div>
             </div>
-        
-            <div class="d-flex flex-row">
-                <div class="p-1"><img style="height: 24px;" src="img/icons/mail.svg" alt=""></div>
-                <div class="p-1"><p><a href="mailto:info@yoursite.com">info@yoursite.com</a></div>
-            </div>
-                    
-        <!-- socials -->
-            <div class="p-2">
-                <p>Как происходит чистка кондиционера? Сколько будет пыли? Можно посмотреть, как вы работаете? Можно.
+            <div class="col">
+                <img src="img/box.png" alt="" style="max-width: 200px;">
+            </div>        
+        </div>
+    </div>        
+        <br><br>
+            <div class="p-2 text">
+                <h3>Можно посмотреть, как вы работаете? Можно.</h3>
                 <br>
                 <p>Рассказываем о тонкостях нашей работы на Youtube-канале.</p>
                     
@@ -76,12 +118,8 @@
             </div>
 
         </div>
-    
-
-    
-
 </div>
-</div>
+</div> 
 
 
     <div class="container">

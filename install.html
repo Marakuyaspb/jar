@@ -21,15 +21,15 @@
 </head>
 
 <body>
-  <div class="sticky-top container-fluid p-0">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="sticky-top container-fluid p-0 navbar-big">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-big">
         <div class="container-fluid">
-            <a class="navbar-brand px-3" href="#"><img src="img/logo_0.png" style="height: 2.5em" alt=""></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand px-3" href="/index.html"><img src="img/logo_0.png" style="height: 2.5em" alt=""></a>
+            <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="collapse navbar-collapse ms-3" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-link" href="/index.html">Кондиционеры</a>
                     <a class="nav-link disabled">Установка</a>
@@ -44,97 +44,128 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 <!-- MENU END -->
 
+<!-- WATSUP WIDGET -->
+<script type="text/javascript">
+!function(w,h,a,t,s,p){
+    w.whatsapp || (
+    s = h.createElement(a),
+    s.src = t,
+    p = h.getElementsByTagName(a)[0],
+    p.parentNode.insertBefore(s, p)
+)}(window, document, "script", "https://cdn.jsdelivr.net/gh/miguelcolmenares/whatsapp-widget/dist/js/whatsapp-widget.js");
+window.addEventListener('load', function(){
+    new whatsapp({
+        title: 'Напишите нам', // this is the title of the widget
+        description: 'Задать вопрос в Whatsapp', // this is the text below the title
+        agents:[{
+            name: "Отдел продаж",
+            phone: "+79523596963",
+            /*hours: "Посоветуем, какой кондиционер выбрать",*/
+            cta: "Какой кондиционер выбрать?",
+            message: "Добрый день!"
+
+        },
+        {
+            name: "Ремонт и обслуживание",
+            phone: "+79523596963",
+            /*hours: "С вашим кондиционером что-то не так?",*/
+            cta: "С вашим кондиционером что-то не так?"
+        }]
+    })
+});
+</script>
+<!-- END OF WATSUP WIDGET -->
 
 
- <div class="container-fluid m-5">
+ <div class="container-fluid my-5 ms-5">
         <h2 id="install">УСТАНОВКА</h2>
         
-        <h3></h3>
-        <table class="table_price mb-5 mx-5">
-            <tr>
-                <th colspan="2">Услуга</th>
-                <th>Стоимость</th>
-            </tr>
-            <tr>
-                <td rowspan="4">Стандартный монтаж настенного кондиционера </td>
-                <td>1.5-3.0 кВт</td>
-                <td>20 700</td>
-            </tr>
-            <tr>
-                <td>3.1-4.5 кВт</td>
-                <td>22 500</td>
-            </tr>
-            <tr>
-                <td>4.6-6.0 кВт</td>
-                <td>25 700</td>
-            </tr>
-            <tr>
-                <td>6.1-8.1 кВт</td>
-                <td>27 500</td>
-            </tr>
-                <!-- <td colspan="3"></td> -->
-            <tr>
-                <td rowspan="5">Монтаж полупромышленного* кондиционера</td>
-                <td> 3.0-4.5 кВт</td>
-                <td>23 700</td>
-            </tr>
-            <tr>
-                <td>4.6-6.0 кВт</td>
-                <td>27 500</td>
-            </tr>
-            <tr>
-                <td>6.1-8.1 кВт</td>
-                <td>31 700</td>
-            </tr>
-            <tr>
-                <td>8.1-11.0 кВт</td>
-                <td>35 700</td>
-            </tr>
-            <tr>
-                <td>11.0-16.0 кВт</td>
-                <td>45 700</td>
-            </tr>
-             <!--    <td colspan="3"></td> -->
-            <tr>
-                <td rowspan="2">Монтаж мульсплисистемы 
-                    <p>1 наружного блока на балконе</td>
-                <td>до 6.0 кВт </td>
-                <td>46 400</td>
-            </tr>
-            <tr>
-                <td>от 2 до 4 внутренних блоков, <p>от 6.0 кВт до 11.0 кВт </td>
-                <td>55 700</td>
-            </tr>
-               <!--  <td colspan="3"></td> -->
-            <tr>
-                <td rowspan="3">Доп. метр Фреонтрасса </td>
-                <td>1/4, 3/8; Флексс/коуч.;<p>кабель5×1.5; изоляция</td>
-                <td>2000</td>
-            </tr>
-            <tr>
-                <td>1/4, 1/2; Флексс/коуч.; <p>кабель5×1.5; изоляция</td>
-                <td>2200</td>
-            </tr>
-            <tr>
-                <td>1/4, 5/8; Флексс/коуч.;<p>кабель5×1.5; изоляция</td>
-                <td>2800</td>
-            </tr>
-            <tr>
-                <td colspan="2">Стоимость высотных работ</td>
+        <div class="table-responsive">
+            <table class="table_price mb-5">
+                <tr>
+                    <th colspan="2">Услуга</th>
+                    <th>Стоимость</th>
+                </tr>
+                <tr>
+                    <td rowspan="4">Стандартный монтаж настенного кондиционера </td>
+                    <td>1.5-3.0 кВт</td>
+                    <td>20 700</td>
+                </tr>
+                <tr>
+                    <td>3.1-4.5 кВт</td>
+                    <td>22 500</td>
+                </tr>
+                <tr>
+                    <td>4.6-6.0 кВт</td>
+                    <td>25 700</td>
+                </tr>
+                <tr>
+                    <td>6.1-8.1 кВт</td>
+                    <td>27 500</td>
+                </tr>
+                    <!-- <td colspan="3"></td> -->
+                <tr>
+                    <td rowspan="5">Монтаж полупромышленного* кондиционера</td>
+                    <td> 3.0-4.5 кВт</td>
+                    <td>23 700</td>
+                </tr>
+                <tr>
+                    <td>4.6-6.0 кВт</td>
+                    <td>27 500</td>
+                </tr>
+                <tr>
+                    <td>6.1-8.1 кВт</td>
+                    <td>31 700</td>
+                </tr>
+                <tr>
+                    <td>8.1-11.0 кВт</td>
+                    <td>35 700</td>
+                </tr>
+                <tr>
+                    <td>11.0-16.0 кВт</td>
+                    <td>45 700</td>
+                </tr>
+                 <!--    <td colspan="3"></td> -->
+                <tr>
+                    <td rowspan="2">Монтаж мульсплисистемы 
+                        <p>1 наружного блока на балконе</td>
+                    <td>до 6.0 кВт </td>
+                    <td>46 400</td>
+                </tr>
+                <tr>
+                    <td>от 2 до 4 внутренних блоков, <p>от 6.0 кВт до 11.0 кВт </td>
+                    <td>55 700</td>
+                </tr>
+                   <!--  <td colspan="3"></td> -->
+                <tr>
+                    <td rowspan="3">Доп. метр Фреонтрасса </td>
+                    <td>1/4, 3/8; Флексс/коуч.;<p>кабель5×1.5; изоляция</td>
+                    <td>2000</td>
+                </tr>
+                <tr>
+                    <td>1/4, 1/2; Флексс/коуч.; <p>кабель5×1.5; изоляция</td>
+                    <td>2200</td>
+                </tr>
+                <tr>
+                    <td>1/4, 5/8; Флексс/коуч.;<p>кабель5×1.5; изоляция</td>
+                    <td>2800</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Стоимость высотных работ</td>
 
-                <td>5000</td>
-            </tr>
+                    <td>5000</td>
+                </tr>
 
-        </table>
+            </table>
+        </div>
+        
         <p class="px-5 text"><b>*</b> Настенно-потолочная система, напольный  колонной кондиционер
-
-
     </div>
 
 
     <!--  FOOTER -->
-    
-    <div class="container mt-5  footer-p">
+<hr>
+        <div class="container mt-5  footer-p">
         <div class="row row-pb-md font3">
 
             <div class="col footer-col colorlib-widget">
@@ -147,16 +178,14 @@
                     
                     <div class="row">
 
-                        <div class="col-3 ps-2 pt-2 pb-5">
+                        <div class="col-3 ps-2 py-2">
                             <a href="#"><img src="img/icons/youtube.png" alt=""></a>
                         </div>
                     
                     </div>
                 </div>
             </div>
-           
-            
-            
+                       
             <div class="col footer-col">
                 <h3 style="font-size: 14px;" class="ps-2">КОНТАКТЫ</h3>
                 <p> 
@@ -173,10 +202,9 @@
         </div>
     </div>
 
-     <center class="pb-2" style="font-size: 0.8em; ">
+     <center class="pt-5 pb-2" style="font-size: 0.8em; ">
         <p>© 2022
     </center>
-
 
 </body>
 </html>

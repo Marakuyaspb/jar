@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/error.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/product_card.css">
+    <link rel="stylesheet" href="/feedback/css/form-processing.css">
 
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
@@ -24,7 +25,7 @@
   <div class="sticky-top container-fluid p-0">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand px-3" href="#"><img src="img/logo_0.png" style="height: 2.5em" alt=""></a>
+            <a class="navbar-brand px-3" href="/index.html"><img src="img/logo_0.png" style="height: 2.5em" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -44,7 +45,40 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 <!-- MENU END -->
 
-<div class="container-fluid m-5">
+<!-- WATSUP WIDGET -->
+<script type="text/javascript">
+!function(w,h,a,t,s,p){
+    w.whatsapp || (
+    s = h.createElement(a),
+    s.src = t,
+    p = h.getElementsByTagName(a)[0],
+    p.parentNode.insertBefore(s, p)
+)}(window, document, "script", "https://cdn.jsdelivr.net/gh/miguelcolmenares/whatsapp-widget/dist/js/whatsapp-widget.js");
+window.addEventListener('load', function(){
+    new whatsapp({
+        title: 'Напишите нам', // this is the title of the widget
+        description: 'Задать вопрос в Whatsapp', // this is the text below the title
+        agents:[{
+            name: "Отдел продаж",
+            phone: "+79523596963",
+            /*hours: "Посоветуем, какой кондиционер выбрать",*/
+            cta: "Какой кондиционер выбрать?",
+            message: "Добрый день!"
+
+        },
+        {
+            name: "Ремонт и обслуживание",
+            phone: "+79523596963",
+            /*hours: "С вашим кондиционером что-то не так?",*/
+            cta: "С вашим кондиционером что-то не так?"
+        }]
+    })
+});
+</script>
+<!-- END OF WATSUP WIDGET -->
+
+
+<div class="container-fluid my-5 ms-5">
         <h2 id="service">ОБСЛУЖИВАНИЕ И РЕМОНТ</h2>
         <p class="py-2 text"> 3-4 предложения про обслуживание и ремонт. Всё происходит аккуратно и чётко. Долговечность, надёжность вещей.
 
@@ -89,7 +123,6 @@
                 <td>Дозаправка кондиционера фреоном 22R; 410R; 32R-100грам </td>
                 <td>500</td>
             </tr>
-            
         </table>
 
 
@@ -133,17 +166,18 @@
             </tr>
 
         </table>
-
-
-    </div>
+    </div> 
         
+<!-- FORM START -->
 
 
-   
+
+<!-- FORM END -->
 
 
 
 <!--  FOOTER -->
+<hr>
         <div class="container mt-5  footer-p">
         <div class="row row-pb-md font3">
 
