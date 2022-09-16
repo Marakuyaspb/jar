@@ -30,7 +30,7 @@
 .model_photo{
     margin-bottom: 20px;
     margin-top: 20px;
-    width: 270px;
+    max-width: 240px;
     height: 100%
     position: relative;
 }

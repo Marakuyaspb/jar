@@ -13,11 +13,13 @@ class Products {
 			
 			<div class = "product_card">
 			<center>
-				<h3 class="py-1">${model_name}</h3>
-			</center>
-			<center>
 				<img src="${photo}" class="model_photo img-responsive"/>
 			</center>
+
+			<center>
+				<h3 class="py-1">${model_name}</h3>
+			</center>
+
 			<center>
 				<span class="model_price">${price} руб.</span>
 			</center>
