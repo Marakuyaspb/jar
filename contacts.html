@@ -122,6 +122,26 @@ window.addEventListener('load', function(){
 </div> 
 
 
+
+<div class="container call_me_card py-5 my-5">
+
+    <h4>Какой кондиционер выбрать?</h4>
+    <form class="SendMail" method="post" enctype="multipart/form-data">
+    <!-- About -->
+        <input type="hidden" name="type_name" value="Нужен новый кондей">
+    <!--  -->
+        <input type="text" name="Имя" placeholder="Ваше имя" class="call_me_input">
+        <input type="text" name="phone" placeholder="+7(  )..." class="call_me_input">
+
+        <div class="g-recaptcha" data-sitekey="ваш рекапча ключ сайта"></div>
+        
+        <input type="submit" value="Получить консультацию" class="call_me_button">
+       
+    </form>
+</div>
+
+
+
     <div class="container">
         <center class="pt-5 pb-2" style="font-size: 0.8em; ">
             <p>© 2022
@@ -129,5 +149,8 @@ window.addEventListener('load', function(){
     </div>
 
 </div>
+
+
+<script src="/vg/www/templates/modules/mail/js/mail.js"></script>
 </body>
 </html>

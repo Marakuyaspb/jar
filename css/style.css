@@ -222,7 +222,7 @@ input[type=text] {
     /*width: 9em;*/
     height: 40px;
     padding: 0 20px;
-    margin: 10px;;
+    margin: 10px;
 }
 .call_me_button:hover {
     background-color: #666F88;
@@ -240,6 +240,7 @@ input[type=text] {
     /*width: 9em;*/
     height: 40px;
     padding: 0 20px;
+    margin: 10px;
 }
 .call_me_input:hover {
     box-shadow:  0 0 8px #e86c41;
@@ -255,9 +256,8 @@ input[type=text] {
 
 
 .contact_card {
-    /*background-repeat: no-repeat;*/
-    /*margin-bottom: 10em;*/
-    /*margin-top: 5em;*/
+/*    margin-bottom: 10em;
+    margin-top: 5em;*/
     margin-left:auto;
     margin-right:auto;
     padding: 2em;
